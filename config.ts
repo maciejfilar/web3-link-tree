@@ -3,22 +3,22 @@
 
 // Set 'wallet' to undefined if you wish to disable the Tipping feature
 export const DETAILS = {
-  name: 'Eto',
-  header: 'Eto.eth',
-  headerlink: 'https://twitter.com/etoeth',
-  wallet: '0x239b88b1be00f539c8200c571d82ca13c661faf3'
+  name: 'Maciej',
+  header: 'Maciej.eth',
+  headerlink: 'https://twitter.com/FilarMaciej',
+  wallet: '0x0c24D64f0E15349be987342C1443151028783dc0'
 }
 
 // Import Background Image here 👇
-import bg from './images/bg.gif'
+import bg from './images/bg.png'
 export const BG = bg;
 
 // Import Logo Image here 👇
-import logo from './images/logo.png'
+import logo from './images/logo.jpg'
 export const LOGO = logo;
 
-import btn_twitter from './images/btn_twitter.png'
-import btn_medium from './images/btn_medium.png'
+import btn_twitter from './images/btn_twitter.jpg'
+import btn_medium from './images/btn_insta.jpg'
 // Import Button Images here 👆
 
 // Buttons are best as 1500x500px images!
@@ -28,12 +28,12 @@ import btn_medium from './images/btn_medium.png'
 // To include a footer icon: Give 'link' a value
 // To include a button: Give 'button' your imported image value
 export const TWITTER = {
-  link: 'https://twitter.com/etoeth',
+  link: 'https://twitter.com/FilarMaciej',
   button: btn_twitter
 }
 
 export const MEDIUM = {
-  link: 'https://medium.com/@0xEto',
+  link: 'https://www.instagram.com/matt_filar/',
   button: btn_medium
 }
 
@@ -53,8 +53,8 @@ export const SUBSTACK = {
 }
 
 export const ABOUT = {
-  title: 'Where is Eto?',
-  text: 'In the Shadows.'
+  title: 'Who is Maciej?',
+  text: 'Satoshi Nakamoto'
 }
 export const ABOUT2 = {
   title: undefined,

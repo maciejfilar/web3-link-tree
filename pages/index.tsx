@@ -1,7 +1,8 @@
 import type { NextPage } from 'next';
 import { About } from '../components/About';
 import { ImgButton } from '../components/ImgButton';
-import { FaMedium, FaTwitter } from 'react-icons/fa';
+import { FaMedium, FaTwitter} from 'react-icons/fa';
+import { BsInstagram } from 'react-icons/bs';
 import { DISCORD, GITHUB, MEDIUM, SUBSTACK, TWITTER } from '../config';
 import { BsDiscord, BsGithub } from 'react-icons/bs';
 import { SiSubstack } from 'react-icons/si';
@@ -23,8 +24,8 @@ const Index: NextPage = () => {
 
         {MEDIUM.button !== undefined ? (
           <ImgButton
-            text='Medium'
-            icon={<FaMedium />}
+            text='Instagram'
+            icon={<BsInstagram/>}
             src={MEDIUM.button}
             href={MEDIUM.link}
           />

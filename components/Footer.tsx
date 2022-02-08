@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaTwitter, FaMedium } from 'react-icons/fa';
-import { BsDiscord, BsGithub, BsHeartFill } from 'react-icons/bs';
+import { BsDiscord, BsGithub, BsHeartFill, BsInstagram } from 'react-icons/bs';
 import { SiSubstack } from 'react-icons/si';
 import { FiArrowRight } from 'react-icons/fi';
 import { DISCORD, GITHUB, MEDIUM, SUBSTACK, TWITTER } from '../config';
@@ -77,7 +77,7 @@ const MediaIcons = () => {
           href={MEDIUM.link}
           target='_blank'
           rel='noreferrer'>
-          <FaMedium />
+          <BsInstagram />
         </a>
       ) : (
         <></>
